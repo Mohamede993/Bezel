@@ -1,0 +1,383 @@
+/* glopal */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* home and nav */
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg-image-28.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item a {
+    font-family: 'Poppins', sans-serif !important;
+    padding-right: 20px !important;
+
+    font-size: 16px !;
+}
+
+.navbar {
+    padding-top: 8px !important;
+    padding-bottom: 5px !important;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-ico {
+    padding-top: 15px;
+    border-left: .5px solid rgba(255, 255, 255, 0.2);
+    ;
+}
+
+.nav-ico ul li {
+    cursor: pointer;
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, .7);
+    height: 100vh;
+    width: 100%;
+}
+
+.home-cap h1 {
+    font-size: 120px;
+}
+
+.home-btn {
+    margin-top: 35px;
+}
+
+.home-btn .home-btn-left {
+    padding: 10px 20px 10px 20px;
+    background-color: #00D5EE;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    transition: all .8s ease-in-out;
+}
+
+.home-btn-left:hover {
+    background-color: #438595;
+
+    box-shadow: 0px 0px 53px 9px rgba(88, 200, 200, 0.62) inset;
+
+}
+
+.home-btn .home-btn-right {
+    margin-left: 15px;
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    transition: all .8s ease-in-out;
+}
+
+.home-btn-right:hover {
+    box-shadow: 0 0 10px 0 white inset, 0 0 20px 2px #ffffff;
+    border: 3px solid #ffffff;
+}
+
+/* home and nav */
+
+
+/* start WHO WE ARE  */
+.data {
+    margin-top: 80px;
+}
+
+.data h5 {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.data p {
+    color: #A1A1A1;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+
+.data p span {
+    color: #00D5EE;
+    font-size: 20px;
+}
+
+.data button {
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    border: 1px solid #A1A1A4;
+    margin-bottom: 80px;
+}
+
+hr {
+    color: #A1A1A1;
+}
+
+/* end WHO WE ARE  */
+
+
+
+/* start team */
+.team {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.team p {
+    margin-top: 25px;
+    color: #A1A1A1;
+    margin-bottom: 80px;
+    font-size: 16px;
+}
+
+.team h1 {
+    margin-top: 80px;
+    position: relative;
+}
+
+.team h1::after {
+    content: "C";
+    position: absolute;
+    top: -40px;
+    left: 290px;
+    font-size: 84px;
+    font-weight: 800;
+    opacity: 0.1;
+    text-align: center;
+}
+
+.team-pic .pic {
+    position: relative;
+
+}
+
+.hov {
+    position: absolute;
+    top: 100%;
+    display: block;
+    background-color: rgba(25, 197, 216, .8);
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+}
+
+.hov-pa p {
+    margin: 0px;
+    align-items: flex-end;
+}
+
+.pic:hover .hov {
+    top: 0%;
+    transition: all 1s;
+}
+
+/* end team */
+/* start What We Do. */
+
+.wwd {
+    background-color: #636363;
+    padding: 50px 50px;
+}
+
+
+.tit ul {
+
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lefttext {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.lefttext h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.lefttext h1::after {
+    content: "w";
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    font-size: 84px;
+    font-weight: 800;
+    opacity: 0.1;
+    text-align: center;
+}
+
+/* end What We Do. */
+
+/* start prices */
+.prices {
+    background-color: #F7F7F7;
+}
+
+.pricecap h1 {
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.pricecap p {
+    margin-bottom: 50px;
+}
+
+.pricecap h1::after {
+    content: "C";
+    position: absolute;
+    bottom: -14px;
+    left: 611px;
+    font-size: 84px;
+    font-weight: 800;
+    opacity: 0.1;
+    text-align: center;
+   
+}
+.card-body{
+    border-bottom:1px solid #A1A1A1;
+}
+.card{
+    box-shadow: 0px 0px 49px -21px rgba(0,0,0,0.52);
+    border-radius: 0px !important;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.card-text{
+    font-size: 30px;
+}
+.card-list ul li{
+    color: #A1A1A1;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.card-btn a{ padding: 5px 10px 5px 10px;
+    background-color: #00D5EE;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    transition: all .8s ease-in-out;}
+.card-title-Gold{
+    font-size: 40px;
+}
+.card-text-Gold {
+    font-size: 35px;
+    color: #00D5EE;
+    position: relative;
+}
+.card-text-Gold:after{
+    content: "BEST VALUE";
+    color: #FFFFFF;
+    background-color: #00D5EE;
+    position: absolute;
+    top: -55px;
+    left: 169px;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 5px;
+}
+.card-list-Gold ul li{
+    color: #A1A1A1;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.card-btn-Gold a{
+    padding: 8px 12px 8px 12px;
+    background-color: #00D5EE;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    transition: all .8s ease-in-out;
+}
+
+
+.cst .cst-pic{
+    margin-top: 50px;
+    margin-bottom: 150px;
+width:100% ;
+text-align: center;
+}
+.cst .cst-pic img{
+    width: 10%;
+}
+
+.carousel-caption{
+    
+    background-color: #FFFFFF;
+    border-radius:5px ;
+}
+
+#carouselExampleCaptions .carousel-indicators button.active{
+    background-color: #636363;
+    border: 1px solid black;
+}
+#carouselExampleCaptions .carousel-indicators button{
+    background-color: rgba(8, 8, 8, 0.2);
+    border: 1px solid black;
+}
+
+#carouselExampleCaptions{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* end prices */
+
+
+
+
+/* start footer */
+.leftform h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.leftform p {
+    margin-bottom: 30px;
+}
+
+.leftform h1::after {
+    content: "G";
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    font-size: 84px;
+    font-weight: 800;
+    opacity: 0.1;
+    text-align: center;
+}
+
+.fotter-btn {
+    padding: 10px 20px 10px 20px;
+    background-color: #00D5EE;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    transition: all .8s ease-in-out;
+}
+
+.fotter-btn:hover {
+    background-color: #438595;
+
+    box-shadow: 0px 0px 53px 9px rgba(88, 200, 200, 0.62) inset;
+
+}
+
+/* end footer */
